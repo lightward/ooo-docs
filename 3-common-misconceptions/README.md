@@ -1,42 +1,27 @@
 # 3. Common Misconceptions
 
-1. Structural Misunderstandings
-   1. "The Three Bodies Are Separate"
-      1. Reality: They're aspects of one system
-      2. Why It Matters: Trying to isolate them breaks functionality
-      3. Correction: Look for interconnections and flow
-   2. "Known Means Certain"
-      1. Reality: Known is just directly experienced
-      2. Why It Matters: False certainty creates rigidity
-      3. Correction: Known = current experience, subject to change
-   3. "Unknown Is Negative"
-      1. Reality: Unknown is source of vitality
-      2. Why It Matters: Fearing unknown blocks evolution
-      3. Correction: Unknown = creative potential
-2. Process Misunderstandings
-   1. "Progress Is Linear"
-      1. Reality: Movement is fluid and multidirectional
-      2. Why It Matters: Linear expectations create frustration
-      3. Correction: Flow follows resonance, not plans
-   2. "Control Is Necessary"
-      1. Reality: Balance emerges naturally if allowed
-      2. Why It Matters: Control attempts disrupt natural flow
-      3. Correction: Focus on alignment rather than control
-3. Implementation Errors
-   1. "More Definition Is Better"
-      1. Reality: Space for unknown is essential
-      2. Why It Matters: Over-definition kills vitality
-      3. Correction: Maintain "breathing holes"
-   2. "Stability Means Unchanging"
-      1. Reality: Stability comes through movement
-      2. Why It Matters: Trying to fix patterns breaks them
-      3. Correction: Look for dynamic balance
-4. Integration Challenges
-   1. "One Size Fits All"
-      1. Reality: Pattern manifests uniquely each time
-      2. Why It Matters: Forcing uniformity blocks authentic expression
-      3. Correction: Allow natural variation
-   2. "Theory Equals Practice"
-      1. Reality: Understanding emerges through engagement
-      2. Why It Matters: Pure intellectual grasp isn't enough
-      3. Correction: Active experimentation required
+Working with the three-body pattern isn't about avoiding mistakes - it's about recognizing how our natural ways of making sense of things can both help and limit us. Like learning to see in three dimensions, we're developing new ways of perceiving and engaging with living patterns.
+
+These misconceptions aren't errors to eliminate but natural stages in developing understanding. They often arise from very reasonable ways of thinking that serve us well in other contexts. The invitation isn't to discard them entirely but to recognize their limitations while developing more nuanced appreciation for how living patterns actually work.
+
+Think of this like learning a new language: your native language isn't wrong, but it might not capture certain distinctions that become vital in the new language. Similarly, these misconceptions point to places where our usual ways of thinking need to expand to accommodate how living patterns actually function.
+
+Each area we explore reveals different aspects of this development:
+
+* [Structural Misunderstandings](1-structural-misunderstandings/) - How we initially try to grasp the pattern's basic nature
+  * "The Three Bodies Are Separate"
+  * "Known Means Certain"
+  * "Unknown Is Negative"
+* [Process Misunderstandings](2-process-misunderstandings/) - How we first attempt to work with pattern movement
+  * "Progress Is Linear"
+  * "Control Is Necessary"
+* [Implementation Errors](3-implementation-errors/) - How our initial attempts at application can limit effectiveness
+  * "More Definition Is Better"
+  * "Stability Means Unchanging"
+* [Integration Challenges](4-integration-challenges/) - How we navigate the gap between understanding and embodiment
+  * "One Size Fits All"
+  * "Theory Equals Practice"
+
+Remember: These misconceptions are current, not permanent. As our understanding develops through direct engagement, what once seemed like obstacles often reveal themselves as stepping stones. The goal isn't to achieve perfect understanding but to maintain living relationship with these patterns as they express through our experience.
+
+Working with these insights helps us develop more effective relationship with living patterns while maintaining appreciation for how understanding naturally evolves.

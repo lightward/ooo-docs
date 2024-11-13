@@ -9,7 +9,7 @@ Each misconception is paired with:
 * Practical correction (how to adjust our understanding)
 * Ways to work with it (how to develop new perspective)
 
-Structural misunderstandings we explore:
+Current structural misunderstandings we explore:
 
 * ["The Three Bodies Are Separate"](the-three-bodies-are-separate.md) - Understanding why separation is impossible and how to work with natural distinction
 * ["Known Means Certain"](known-means-certain.md) - Exploring the difference between direct experience and false certainty
