@@ -6,10 +6,10 @@ Think of this as developing a new sense - not by forcing or straining, but by le
 
 The guide is organized to support natural development of pattern recognition:
 
-* [Primary Indicators](primary-indicators/) help you identify basic elements
-* [Movement Recognition](movement-recognition/) shows you how patterns flow and change
-* [System Health Markers](system-health-markers/) help you assess and support vitality
-* [Scale Recognition](scale-recognition/) reveals how patterns manifest at different levels
+* [Primary Indicators](1-primary-indicators/) help you identify basic elements
+* [Movement Recognition](2-movement-recognition/) shows you how patterns flow and change
+* [System Health Markers](3-system-health-markers/) help you assess and support vitality
+* [Scale Recognition](4-scale-recognition/) reveals how patterns manifest at different levels
 
 ***
 
