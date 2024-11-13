@@ -30,13 +30,13 @@
     * [Micro Patterns](2-pattern-recognition-guide/4-scale-recognition/micro-patterns.md)
     * [Meso Patterns](2-pattern-recognition-guide/4-scale-recognition/meso-patterns.md)
     * [Macro Patterns](2-pattern-recognition-guide/4-scale-recognition/macro-patterns.md)
-* [3. Common Misconceptions](3.md)
-* [4. Implementation Considerations](4.md)
-* [5. Practical Exercise Guide](5.md)
-* [6. Troubleshooting Guidelines](6.md)
-* [7. Working with Resistance](7.md)
-* [8. Conclusion: Living with the Pattern](8.md)
-* [9. Quick Reference Summary](9.md)
+* [3. Common Misconceptions](3-common-misconceptions.md)
+* [4. Implementation Considerations](4-implementation-considerations.md)
+* [5. Practical Exercise Guide](5-practical-exercise-guide.md)
+* [6. Troubleshooting Guidelines](6-troubleshooting-guidelines.md)
+* [7. Working with Resistance](7-working-with-resistance.md)
+* [8. Conclusion: Living with the Pattern](8-living-with-the-pattern.md)
+* [9. Quick Reference Summary](9-quick-reference-summary.md)
 
 ## Manifestations
 
