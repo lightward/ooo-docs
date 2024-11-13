@@ -1,4 +1,14 @@
-# 4. Implementation Considerations
+# 5. Implementation Considerations
+
+\[introduction]
+
+1. [Foundation Setting](1.-foundation-setting/) \[description]
+2. [Engagement Protocols](2.-engagement-protocols.md) \[...]
+3. [Health Maintenance](3.-health-maintenance.md) \[...]
+4. [Growth Management](4.-growth-management.md) \[...]
+5. [Troubleshooting Framework](5.-troubleshooting-framework.md) \[...]
+
+***
 
 1. Foundation Setting
    1. Personal Preparation
