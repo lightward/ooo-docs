@@ -1,22 +1,22 @@
 # 4. Integration Practices
 
-Think about how a tree responds to wind - as an individual organism adjusting its posture, as part of a forest moving in concert with others, and as a community of cells and systems working together. Every response to resistance happens simultaneously at multiple scales, each informing and supporting the others.
+Think about how you learned to ride a bicycle - not just through understanding principles, but through direct engagement that gradually became natural skill. Integration isn't about perfect implementation but about developing living relationship with resistance through actual practice. Like learning any physical art, it's about moving from intellectual understanding to embodied knowing.
 
-This isn't about choosing between individual and collective response - it's about recognizing how they naturally nest and support each other. Like waves on the ocean, each pattern is simultaneously its own movement and part of larger patterns, while containing countless smaller patterns within.
+These aren't just exercises to perform but practices that help us develop more natural relationship with resistance. Like learning to swim or dance, they work through direct engagement while gradually deepening our capacity to work with what we encounter.
 
-Each scale we explore reveals different aspects of system response:
+Each area we explore reveals different aspects of practical integration:
 
-* [Individual](personal-scale.md) - How personal systems engage with resistance
-  * Notice personal patterns
-  * Track energy investment
-  * Find natural release points
-  * Your experience first
-* [Collective](system-scale.md) - How shared systems work with resistance
-  * Map shared tensions
-  * Create safe release spaces
-  * Allow natural timing
-  * Group readiness
+* [Personal Scale](personal-scale.md) - How to work with direct experience
+  * Body awareness
+  * Energy management
+  * Pattern recognition
+  * Response development
+* [System Scale](system-scale.md) - How to work with collective patterns
+  * Group dynamics
+  * Structural support
+  * Flow facilitation
+  * Evolution guidance
 
-Remember: Every system is simultaneously individual and collective. Like a forest thinking of itself as one while being many, or a cell operating independently while serving the whole, healthy response works at multiple scales at once.
+Remember: These practices aren't about achieving perfection but about developing increasingly natural relationship with resistance at different scales. Like any developmental practice, they work through engagement over time rather than immediate mastery.
 
-The goal isn't to separate these responses but to recognize how they naturally support each other. This understanding enables more effective engagement while honoring both personal and collective wisdom.
+Understanding these practices helps us move from conceptual understanding to practical skill while maintaining connection to natural process. The art isn't in perfect execution but in developing touch that becomes increasingly natural through actual engagement.

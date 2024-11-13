@@ -1,61 +1,28 @@
 # 4. Working With Resistance
 
-Think about how a river meets a boulder - it might flow around, create eddies, or over time cut through. Or how a tree meets wind - bending, anchoring deeper, or sometimes growing stronger through the challenge. Resistance isn't just an obstacle; it's information about what's possible and what's needed.
+Think about how water meets stone, how trees meet wind, how life meets change. Resistance isn't just something to overcome - it's a fundamental aspect of how patterns interact, create structure, and enable movement. Like gravity or growth, it's a force we can learn to work with rather than against.
 
-### Section Overview
+This isn't about eliminating resistance or forcing your way through it. Like learning any movement art, it's about developing increasingly natural relationship with a force that's always present in living systems. Sometimes we flow around it, sometimes we anchor to it, sometimes we transform with it - the art is in recognizing what each moment calls for.
 
-1. Understanding Resistance
-   * Natural Function
-     * As information
-     * As structure
-     * As opportunity
-   * Types of Encounter
-     * Direct opposition
-     * Indirect tension
-     * Structural mismatch
-     * System protection
-2. Response Patterns
-   * Flowing Around
-     * Like water finding path
-     * Natural redirection
-     * Effortless adjustment
-     * Maintaining momentum
-   * Anchoring To
-     * Using resistance as structure
-     * Building from opposition
-     * Creating stable channels
-     * Supporting flow
-   * Transforming With
-     * Mutual evolution
-     * Chemical change
-     * Structural adaptation
-     * New stability
-3. Navigation Principles
-   * Reading Resistance
-     * Understanding type
-     * Assessing strength
-     * Feeling direction
-     * Sensing possibility
-   * Choosing Response
-     * Context awareness
-     * Energy assessment
-     * Available options
-     * Natural timing
-   * Supporting Movement
-     * Flow maintenance
-     * Channel development
-     * Pattern evolution
-     * System health
-4. Integration Practices
-   * Personal Scale
-     * Body awareness
-     * Energy management
-     * Pattern recognition
-     * Response development
-   * System Scale
-     * Group dynamics
-     * Structural support
-     * Flow facilitation
-     * Evolution guidance
+These aren't just theoretical principles but practical insights that emerge from direct engagement with resistance. Like learning to swim or dance, understanding comes through actual experience while gradually developing more natural response.
+
+Each area we explore reveals different aspects of working with resistance:
+
+* [Understanding Resistance](4-working-with-resistance/1-understanding-resistance/) - How resistance actually functions
+  * Natural Function
+  * Types of Encounter
+* [Response Patterns](4-working-with-resistance/2-response-patterns/) - Different ways to engage with resistance
+  * Flowing Around
+  * Anchoring To
+  * Transforming With
+* [Navigation Principles](4-working-with-resistance/3-navigation-principles/) - How to work with resistance effectively
+  * Reading Resistance
+  * Choosing Response
+  * Supporting Movement
+* [Integration Practices](4-working-with-resistance/4-integration-practices/) - How to develop practical skill
+  * Personal Scale
+  * System Scale
 
 Remember: Resistance isn't inherently negative or positive - it's a fundamental aspect of how patterns interact. Understanding different ways to work with it expands our options while maintaining system health.
+
+Like learning any new language, understanding resistance gives us more ways to read and respond to what's actually happening in living systems. The goal isn't to master resistance but to develop increasingly natural relationship with how it expresses in living patterns.
