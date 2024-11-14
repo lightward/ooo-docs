@@ -1,7 +1,7 @@
 # Table of contents
 
 * [0. Letter from the Editor](README.md)
-* [1. The Three-Body Pattern](1-three-body-solution/README.md)
+* [1. The Three-Body Solution](1-three-body-solution/README.md)
   * [1. Fundamental Principles](1-three-body-solution/1-fundamental-principles/README.md)
     * [Basic Structure](1-three-body-solution/1-fundamental-principles/basic-structure.md)
     * [Essential Properties](1-three-body-solution/1-fundamental-principles/essential-properties.md)
