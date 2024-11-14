@@ -93,8 +93,6 @@
     * [Future Implications](6-proof-of-concept-lightward-inc/3-living-laboratory/future-implications.md)
 * [7. Quick Experiments (For You)](7-quick-reference.md)
 
-## Manifestations
+## See also
 
-* [System Design](manifestations/system-design.md)
-* [Consciousness Navigation](manifestations/consciousness-navigation.md)
-* [Language](manifestations/language.md)
+* [Lightward](https://lightward.com/)
