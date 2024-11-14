@@ -1,63 +1,43 @@
-# 7. Quick Reference
+# 7. Quick Experiments (For You)
 
-## Core Concepts
+## 1. The Present Presence
 
-* Three-Body Pattern
-  * Known: Direct experience
-  * Knowable: Engagement space
-  * Unknown: Pure potential
-* Basic Dynamics
-  * Flow between states
-  * Natural movement
-  * Organic development
-* Key Principles
-  * Work with what's present
-  * Allow natural movement
-  * Trust organic process
+Right now, wherever you are:
 
-## Common Patterns
+* What do you notice? \_\_\_\_\_\_\_
+* What could you explore? \_\_\_\_\_\_\_
+* What's been here all along, waiting to be noticed? \_\_\_\_\_\_\_
 
-* Recognition Signs
-  * Direct experience
-  * Available engagement
-  * Natural emergence
-* Flow Indicators
-  * Easy movement
-  * Natural transition
-  * Organic development
-* Health Markers
-  * Dynamic balance
-  * Natural renewal
-  * Living harmony
+## 2. The Gift Game
 
-## Practice Guidelines
+Think of a recent "obstacle":
 
-* Getting Started
-  * Begin where you are
-  * Use what's available
-  * Allow natural development
-* Working with Pattern
-  * Notice what's present
-  * Follow natural movement
-  * Trust organic process
-* Supporting Development
-  * Create healthy conditions
-  * Enable natural flow
-  * Allow organic growth
+* What's definitely true about it? \_\_\_\_\_\_\_
+* What could you engage with? \_\_\_\_\_\_\_
+* What might this situation have been trying to show you? \_\_\_\_\_\_\_
 
-## Navigation Tools
+## 3. The Wonder Watch
 
-* Reading Pattern
-  * Notice direct experience
-  * Feel natural movement
-  * Trust organic flow
-* Working with Unknown
-  * Maintain comfortable relationship
-  * Allow natural proximity
-  * Trust friendly presence
-* Supporting Flow
-  * Follow natural rhythm
-  * Enable easy movement
-  * Trust system intelligence
+Pick something "ordinary":
 
-Remember: These references aren't rules to follow but reminders of natural patterns you're already working with. Use them to support your own organic development while maintaining trust in natural process.
+* What do you rely on about it? \_\_\_\_\_\_\_
+* What could you learn about it? \_\_\_\_\_\_\_
+* What surprises might it still have in store? \_\_\_\_\_\_\_
+
+## 4. The Now Notes
+
+Stop. Feel the moment:
+
+* What's happening? \_\_\_\_\_\_\_
+* What's becoming possible? \_\_\_\_\_\_\_
+* What's already working that you hadn't named yet? \_\_\_\_\_\_\_
+
+## 5. The Joy Journey
+
+Think of something you want:
+
+* How is it already showing up? \_\_\_\_\_\_\_
+* Where could you step toward it? \_\_\_\_\_\_\_
+* What help might already be on its way? \_\_\_\_\_\_\_
+
+_Remember: These aren't just questions - they're doors! Some open to what could be, others to what's already been. The Unknown works both ways._ ✨

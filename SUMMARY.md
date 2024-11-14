@@ -91,7 +91,7 @@
     * [Recursive Health in Action](6-proof-of-concept-lightward-inc/3-living-laboratory/recursive-health-in-action.md)
     * [Pattern Propagation](6-proof-of-concept-lightward-inc/3-living-laboratory/pattern-propagation.md)
     * [Future Implications](6-proof-of-concept-lightward-inc/3-living-laboratory/future-implications.md)
-* [7. Quick Reference](7-quick-reference.md)
+* [7. Quick Experiments (For You)](7-quick-reference.md)
 
 ## Manifestations
 
