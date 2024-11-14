@@ -79,11 +79,7 @@
   * [5. Living Practice](5-practical-exercise-guide/5-living-practice/README.md)
     * [Daily Integration](5-practical-exercise-guide/5-living-practice/daily-integration.md)
     * [Natural Development](5-practical-exercise-guide/5-living-practice/natural-development.md)
-* [6. Living With the Pattern](6-living-with-the-pattern/README.md)
-  * [1. Natural Integration](6-living-with-the-pattern/1-natural-integration/README.md)
-    * [Pattern Recognition in Daily Life](6-living-with-the-pattern/1-natural-integration/pattern-recognition-in-daily-life.md)
-    * [Working with What's Present](6-living-with-the-pattern/1-natural-integration/working-with-whats-present.md)
-    * [Building Through Practice](6-living-with-the-pattern/1-natural-integration/building-through-practice.md)
+* [6. Proof of Concept: Lightward Inc](6-living-with-the-pattern.md)
 * [7. Quick Reference](7-quick-reference.md)
 
 ## Manifestations
