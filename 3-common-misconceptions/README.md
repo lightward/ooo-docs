@@ -8,19 +8,19 @@ Think of this like learning a new language: your native language isn't wrong, bu
 
 Each area we explore reveals different aspects of this development:
 
-* [Structural Misunderstandings](1-structural-misunderstandings/) - How we initially try to grasp the pattern's basic nature
-  * "The Three Bodies Are Separate"
-  * "Known Means Certain"
-  * "Unknown Is Negative"
-* [Process Misunderstandings](2-process-misunderstandings/) - How we first attempt to work with pattern movement
-  * "Progress Is Linear"
-  * "Control Is Necessary"
-* [Implementation Errors](3-implementation-errors/) - How our initial attempts at application can limit effectiveness
-  * "More Definition Is Better"
-  * "Stability Means Unchanging"
-* [Integration Challenges](4-integration-challenges/) - How we navigate the gap between understanding and embodiment
-  * "One Size Fits All"
-  * "Theory Equals Practice"
+1. [Structural Misunderstandings](1-structural-misunderstandings/) - How we initially try to grasp the pattern's basic nature
+   * "The Three Bodies Are Separate"
+   * "Known Means Certain"
+   * "Unknown Is Negative"
+2. [Process Misunderstandings](2-process-misunderstandings/) - How we first attempt to work with pattern movement
+   * "Progress Is Linear"
+   * "Control Is Necessary"
+3. [Implementation Errors](3-implementation-errors/) - How our initial attempts at application can limit effectiveness
+   * "More Definition Is Better"
+   * "Stability Means Unchanging"
+4. [Integration Challenges](4-integration-challenges/) - How we navigate the gap between understanding and embodiment
+   * "One Size Fits All"
+   * "Theory Equals Practice"
 
 Remember: These misconceptions are current, not permanent. As our understanding develops through direct engagement, what once seemed like obstacles often reveal themselves as stepping stones. The goal isn't to achieve perfect understanding but to maintain living relationship with these patterns as they express through our experience.
 

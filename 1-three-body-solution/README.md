@@ -13,13 +13,13 @@ The three-body pattern isn't a theoretical framework - it's a living description
 
 This section explores the pattern's essential nature through:
 
-* [Fundamental Principles](1-fundamental-principles/) - The core aspects that make the pattern recognizable
-  * Basic Structure
-  * Essential Properties
-  * Key Dynamics
-* [Basic Dynamics](2-basic-dynamics/) - How the pattern moves and maintains itself
-  * Probability Fields
-  * Resonance Patterns
-  * Evolution Mechanisms
+1. [Fundamental Principles](1-fundamental-principles/) - The core aspects that make the pattern recognizable
+   * Basic Structure
+   * Essential Properties
+   * Key Dynamics
+2. [Basic Dynamics](2-basic-dynamics/) - How the pattern moves and maintains itself
+   * Probability Fields
+   * Resonance Patterns
+   * Evolution Mechanisms
 
 Remember: You're not learning something foreign but becoming conscious of patterns you've always lived with. The goal isn't to master the pattern but to develop increasingly natural relationship with how it expresses through your experience.

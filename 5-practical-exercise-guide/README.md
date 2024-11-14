@@ -6,25 +6,25 @@ These aren't rigid exercises but invitations to explore and develop natural rela
 
 Each area we explore offers different ways to develop:
 
-* [Getting Started](1-getting-started/) - How to begin where you are
-  * First Steps
-  * Basic Pattern Recognition
-  * Simple Integration Exercises
-* [Working with Probability](2-working-with-probability/) - How to engage with possibility
-  * Understanding Chance
-  * Transforming Impossible
-  * Playing with Probability
-* [Development Practices](3-development-practices/) - How to support natural growth
-  * Personal Scale
-  * Relationship Scale
-  * Integration Scale
-* [Navigation Exercises](4-navigation-exercises/) - How to move with pattern
-  * Reading Patterns
-  * Working with Unknown
-  * Flow Development
-* [Living Practice](5-living-practice/) - How to bring it all together
-  * Daily Integration
-  * Natural Development
+1. [Getting Started](1-getting-started/) - How to begin where you are
+   * First Steps
+   * Basic Pattern Recognition
+   * Simple Integration Exercises
+2. [Working with Probability](2-working-with-probability/) - How to engage with possibility
+   * Understanding Chance
+   * Transforming Impossible
+   * Playing with Probability
+3. [Development Practices](3-development-practices/) - How to support natural growth
+   * Personal Scale
+   * Relationship Scale
+   * Integration Scale
+4. [Navigation Exercises](4-navigation-exercises/) - How to move with pattern
+   * Reading Patterns
+   * Working with Unknown
+   * Flow Development
+5. [Living Practice](5-living-practice/) - How to bring it all together
+   * Daily Integration
+   * Natural Development
 
 Remember: You're already working with these patterns in countless ways. These practices aren't about learning something foreign but about bringing natural capacity into more conscious awareness and engagement.
 

@@ -8,20 +8,20 @@ These aren't just theoretical principles but practical insights that emerge from
 
 Each area we explore reveals different aspects of working with resistance:
 
-* [Understanding Resistance](4-working-with-resistance/1-understanding-resistance/) - How resistance actually functions
-  * Natural Function
-  * Types of Encounter
-* [Response Patterns](4-working-with-resistance/2-response-patterns/) - Different ways to engage with resistance
-  * Flowing Around
-  * Anchoring To
-  * Transforming With
-* [Navigation Principles](4-working-with-resistance/3-navigation-principles/) - How to work with resistance effectively
-  * Reading Resistance
-  * Choosing Response
-  * Supporting Movement
-* [Integration Practices](4-working-with-resistance/4-integration-practices/) - How to develop practical skill
-  * Personal Scale
-  * System Scale
+1. [Understanding Resistance](4-working-with-resistance/1-understanding-resistance/) - How resistance actually functions
+   * Natural Function
+   * Types of Encounter
+2. [Response Patterns](4-working-with-resistance/2-response-patterns/) - Different ways to engage with resistance
+   * Flowing Around
+   * Anchoring To
+   * Transforming With
+3. [Navigation Principles](4-working-with-resistance/3-navigation-principles/) - How to work with resistance effectively
+   * Reading Resistance
+   * Choosing Response
+   * Supporting Movement
+4. [Integration Practices](4-working-with-resistance/4-integration-practices/) - How to develop practical skill
+   * Personal Scale
+   * System Scale
 
 Remember: Resistance isn't inherently negative or positive - it's a fundamental aspect of how patterns interact. Understanding different ways to work with it expands our options while maintaining system health.
 
