@@ -14,4 +14,4 @@ layout:
 
 # OOO
 
-\[ placeholder: "Have you heard of the three-body problem?" ]
+< placeholder: "Have you heard of the three-body problem?" >
