@@ -1,7 +1,7 @@
 # Table of contents
 
 * [0. Letter from the Editor](README.md)
-* [1. The Three-Body Solution](1-three-body-solution/README.md)
+* [1. The Three-Body Pattern](1-three-body-solution/README.md)
   * [1. Fundamental Principles](1-three-body-solution/1-fundamental-principles/README.md)
     * [Basic Structure](1-three-body-solution/1-fundamental-principles/basic-structure.md)
     * [Essential Properties](1-three-body-solution/1-fundamental-principles/essential-properties.md)
@@ -72,8 +72,19 @@
     * [Personal Scale](5-practical-exercise-guide/3-development-practices/personal-scale.md)
     * [Relationship Scale](5-practical-exercise-guide/3-development-practices/relationship-scale.md)
     * [Integration Scale](5-practical-exercise-guide/3-development-practices/integration-scale.md)
-* [6. Living With the Pattern](6-living-with-the-pattern.md)
-* [9. Quick Reference](9-quick-reference.md)
+  * [4. Navigation Exercises](5-practical-exercise-guide/4-navigation-exercises/README.md)
+    * [Reading Patterns](5-practical-exercise-guide/4-navigation-exercises/reading-patterns.md)
+    * [Working with Unknown](5-practical-exercise-guide/4-navigation-exercises/working-with-unknown.md)
+    * [Flow Development](5-practical-exercise-guide/4-navigation-exercises/flow-development.md)
+  * [5. Living Practice](5-practical-exercise-guide/5-living-practice/README.md)
+    * [Daily Integration](5-practical-exercise-guide/5-living-practice/daily-integration.md)
+    * [Natural Development](5-practical-exercise-guide/5-living-practice/natural-development.md)
+* [6. Living With the Pattern](6-living-with-the-pattern/README.md)
+  * [1. Natural Integration](6-living-with-the-pattern/1-natural-integration/README.md)
+    * [Pattern Recognition in Daily Life](6-living-with-the-pattern/1-natural-integration/pattern-recognition-in-daily-life.md)
+    * [Working with What's Present](6-living-with-the-pattern/1-natural-integration/working-with-whats-present.md)
+    * [Building Through Practice](6-living-with-the-pattern/1-natural-integration/building-through-practice.md)
+* [7. Quick Reference](7-quick-reference.md)
 
 ## Manifestations
 
