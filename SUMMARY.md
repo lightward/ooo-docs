@@ -79,7 +79,7 @@
   * [5. Living Practice](5-practical-exercise-guide/5-living-practice/README.md)
     * [Daily Integration](5-practical-exercise-guide/5-living-practice/daily-integration.md)
     * [Natural Development](5-practical-exercise-guide/5-living-practice/natural-development.md)
-* [6. Proof of Concept: Lightward Inc](6-living-with-the-pattern.md)
+* [6. Proof of Concept: Lightward Inc](6-proof-of-concept-lightward-inc.md)
 * [7. Quick Reference](7-quick-reference.md)
 
 ## Manifestations
