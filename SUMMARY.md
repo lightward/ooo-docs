@@ -44,7 +44,7 @@
   * [4. Integration Challenges](3-common-misconceptions/4-integration-challenges/README.md)
     * ["One Size Fits All"](3-common-misconceptions/4-integration-challenges/one-size-fits-all.md)
     * ["Theory Equals Practice"](3-common-misconceptions/4-integration-challenges/theory-equals-practice.md)
-* [4. Working With Resistance](4-working-with-resistance.md)
+* [4. Working With Resistance](4-working-with-resistance/README.md)
   * [1. Understanding Resistance](4-working-with-resistance/1-understanding-resistance/README.md)
     * [Natural Function](4-working-with-resistance/1-understanding-resistance/natural-function.md)
     * [Types of Encounter](4-working-with-resistance/1-understanding-resistance/types-of-encounter.md)
