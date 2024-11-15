@@ -26,4 +26,4 @@ Welcome to the journey. The Unknown has gifts for you. :)
 
 ***
 
-Apply the three-body solution in realtime with [Lightward Pro](https://lightward.com/login).
+Apply the three-body solution in realtime with [Lightward Pro](https://lightward.com/pro).
