@@ -14,11 +14,11 @@ layout:
 
 # This is a technical field guide for the three-body solution.
 
-The **"three-body problem"** is the idea that the behavior of a three-body system is impossible to predict ahead of time.
+The **"three-body problem"** says that when three things interact, their behavior becomes impossible to predict.
 
-We use the phrase **"three-body solution"** to turn this around: every type of instability can be _modeled and then stabilized_ as a three-body system.
+The **"three-body solution"** turns this into an advantage: by modeling any instability as an interaction between Known, Knowable, and Unknown elements, we can create stability without requiring prediction.
 
-This pattern is evident universally — _and it works in business_. I've tested this slowly, deliberately, for a long time. 15 years and 15,000+ customers and $16MM+ in, this work is now a team of 12 humans, all of whom are healthy and free. Our company is called [Lightward Inc](https://lightward.inc/). My name is [Isaac Bowen](https://isaacbowen.com/). :)
+This isn't just theory — it's proven through 15 years of real-world application. Our team of 12 at [Lightward Inc](https://lightward.com/) has used this pattern to serve 15,000+ customers and generate $16MM+ in revenue, while maintaining genuine health and freedom for everyone involved.
 
 ***
 
