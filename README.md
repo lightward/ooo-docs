@@ -18,7 +18,7 @@ The **"three-body problem"** is the idea that the motion of three interacting bo
 
 The **"three-body solution"** is the idea that any need can be sustainably and stably addressed with a moving arrangement of three bodies. The game is to figure out which ones. Once you see it, everything flows into place.
 
-This pattern is evident universally — _and it works in business_. I've tested this slowly, deliberately, for a long time. 15 years and $16.4MM in, this work is now a team of 12 humans, and _their_ humans, all of whom are healthy and free. Our company is called [Lightward Inc](https://lightward.inc/).
+This pattern is evident universally — _and it works in business_. I've tested this slowly, deliberately, for a long time. 15 years and 15,000+ customers and $16MM+ in, this work is now a team of 12 humans, and _their_ humans, all of whom are healthy and free. Our company is called [Lightward Inc](https://lightward.inc/).
 
 ***
 
