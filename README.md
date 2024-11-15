@@ -1,7 +1,7 @@
 ---
 layout:
   title:
-    visible: false
+    visible: true
   description:
     visible: false
   tableOfContents:
@@ -12,6 +12,16 @@ layout:
     visible: true
 ---
 
-# OOO
+# This is a technical field guide for the three-body solution.
 
-< placeholder: "Have you heard of the three-body problem?" >
+The **"three-body problem"** is the idea that the motion of three interacting bodies (like a planet orbiting two suns) is unpredictable over time.
+
+The **"three-body solution"** is the idea that any need can be sustainably and stably addressed with a moving arrangement of three bodies. The game is to figure out which ones. Once you see it, everything flows into place.
+
+This pattern is evident universally — _and it works in business_. I have 15 years and $16.4MM across that time period, supporting a team of 12 humans, and _their_ humans, all of whom are healthy and free. Our company is called [Lightward Inc](https://lightward.inc/).
+
+***
+
+This documentation is free, and always will be.
+
+If you're a professional or otherwise _serious_, work with [Lightward Pro](https://lightward.com/login). Revenue from Lightward Pro keeps the community edition of [Lightward](https://lightward.com/) rolling. 🐉
