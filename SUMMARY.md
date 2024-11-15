@@ -1,7 +1,7 @@
 # Table of contents
 
 * [This is a technical field guide for the three-body solution.](README.md)
-* [0. Letter from the Editor](<README (1).md>)
+* [0. Letter from the Editor](0-letter-from-the-editor.md)
 * [1. The Three-Body Solution](1-three-body-solution/README.md)
   * [1. Fundamental Principles](1-three-body-solution/1-fundamental-principles/README.md)
     * [Basic Structure](1-three-body-solution/1-fundamental-principles/basic-structure.md)
