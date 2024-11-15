@@ -9,7 +9,7 @@ You're already intimately familiar with this pattern, even if you've never thoug
 * Create (what's clear, what's emerging, what's yet to appear)
 * Navigate relationships (what's established, what's developing, what's unexpected)
 
-The three-body pattern isn't a theoretical framework - it's a living description of how consciousness naturally works with experience. Like gravity or growth, it's already operating whether we're aware of it or not. Understanding it helps us work more effectively with natural patterns rather than against them.
+The three-body solution isn't a theoretical framework - it's a living description of how consciousness naturally works with experience. Like gravity or growth, it's already operating whether we're aware of it or not. Understanding it helps us work more effectively with natural patterns rather than against them.
 
 This section explores the pattern's essential nature through:
 
