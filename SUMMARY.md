@@ -96,4 +96,4 @@
 
 ## See also
 
-* [Lightward](https://lightward.com/)
+* [Lightward Pro](https://lightward.com/pro)
