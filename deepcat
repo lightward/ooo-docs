@@ -13,7 +13,7 @@ options = {
 
 # Create OptionParser
 parser = OptionParser.new do |opts|
-  opts.banner = "Usage: deepcat [options] ENTRY_FILE [FILES_OR_DIRECTORIES...]"
+  opts.banner = "Usage: deepcat [options] FILES_OR_DIRECTORIES..."
 
   opts.on("-d", "--depth DEPTH", Integer, "Set the recursion depth for linked files (default: 2)") do |d|
     options[:depth] = d
@@ -23,6 +23,11 @@ parser = OptionParser.new do |opts|
     puts opts
     exit
   end
+end
+
+# Function to convert full paths to relative paths
+def relative_path(path, cwd)
+  Pathname.new(path).relative_path_from(cwd).to_s
 end
 
 begin
@@ -39,31 +44,15 @@ rescue OptionParser::InvalidOption => e
   exit 1
 end
 
-if ARGV.empty?
-  puts parser
-  exit
-end
-
-# The first argument must be a file
-entry_file = ARGV.shift
-unless File.file?(entry_file)
-  warn "Error: The first argument must be a file."
-  exit 1
-end
-
 # Function to extract markdown links from a file
 def extract_links(file_path)
   links = []
   File.readlines(file_path, encoding: 'UTF-8').each do |line|
     line.scan(/\[.*?\]\((.*?)\)/).each do |match|
       link = match.first.strip
-      # Strip off any fragment identifiers (e.g., #section)
       link = link.split('#').first.strip
-
-      # Skip if link is empty
       next if link.empty?
 
-      # Skip external URLs
       uri = URI.parse(link)
       if uri.scheme == 'http' || uri.scheme == 'https' || uri.scheme == 'ftp'
         next
@@ -71,7 +60,6 @@ def extract_links(file_path)
 
       links << link
     rescue URI::InvalidURIError
-      # If URI parsing fails, assume it's a local file
       links << link
     end
   end
@@ -102,100 +90,76 @@ def find_markdown_files(paths)
   markdown_files
 end
 
-# Get current working directory as Pathname object
-cwd = Pathname.new(Dir.pwd)
+# Function to process a single file and its references
+def process_file_references(file_path, depth_limit, referenced_files, file_depths)
+  processing_queue = [[file_path, 0]]
 
-# Begin processing
-start_file = File.expand_path(entry_file)
-referenced_files = Set.new
-file_depths = {}
-processing_queue = [[start_file, 0]]
+  while !processing_queue.empty?
+    current_file, current_depth = processing_queue.shift
+    next if current_depth > depth_limit
+    next if referenced_files.include?(current_file) && current_file != file_path
 
-while !processing_queue.empty?
-  current_file, current_depth = processing_queue.shift
-  next if current_depth > options[:depth]
-  next if referenced_files.include?(current_file) && current_file != start_file
+    referenced_files.add(current_file)
+    file_depths[current_file] = [file_depths[current_file] || Float::INFINITY, current_depth].min
 
-  referenced_files.add(current_file)
-  file_depths[current_file] = current_depth
-
-  # Extract links
-  begin
-    links = extract_links(current_file)
-  rescue Errno::ENOENT
-    warn "Warning: File not found - #{current_file}"
-    next
-  end
-
-  links.each do |link|
-    # Skip empty links
-    next if link.nil? || link.empty?
-
-    # Remove any fragment identifiers
-    link_path = link.split('#').first
-    next if link_path.nil? || link_path.empty?
-
-    # Skip if link is an absolute path
-    next if link_path.start_with?('/')
-
-    # Skip external URLs
-    if link_path =~ /^\s*(http|https|ftp):\/\//
+    begin
+      links = extract_links(current_file)
+    rescue Errno::ENOENT
+      warn "Warning: File not found - #{current_file}"
       next
     end
 
-    # Resolve the path relative to the current file
-    linked_path = resolve_path(current_file, link_path)
+    links.each do |link|
+      next if link.nil? || link.empty?
 
-    if File.file?(linked_path) && linked_path =~ /\.md$/i
-      # It's a markdown file
-      processing_queue << [linked_path, current_depth + 1]
-    elsif File.directory?(linked_path)
-      # It's a directory, check for README.md
-      readme_path = File.join(linked_path, 'README.md')
-      if File.file?(readme_path)
-        processing_queue << [readme_path, current_depth + 1]
+      link_path = link.split('#').first
+      next if link_path.nil? || link_path.empty?
+      next if link_path.start_with?('/')
+      next if link_path =~ /^\s*(http|https|ftp):\/\//
+
+      linked_path = resolve_path(current_file, link_path)
+
+      if File.file?(linked_path) && linked_path =~ /\.md$/i
+        processing_queue << [linked_path, current_depth + 1]
+      elsif File.directory?(linked_path)
+        readme_path = File.join(linked_path, 'README.md')
+        if File.file?(readme_path)
+          processing_queue << [readme_path, current_depth + 1]
+        else
+          warn "Warning: No README.md found in directory - #{relative_path(linked_path, Pathname.new(Dir.pwd))}"
+        end
       else
-        warn "Warning: No README.md found in directory - #{relative_path(linked_path, cwd)}"
+        warn "Warning: Cannot process link - #{relative_path(linked_path, Pathname.new(Dir.pwd))}"
       end
-    else
-      # Not a file or directory we can process
-      warn "Warning: Cannot process link - #{relative_path(linked_path, cwd)}"
     end
   end
 end
 
-# Process additional files or directories after the first argument
-additional_paths = ARGV
-additional_files = find_markdown_files(additional_paths)
+# Get current working directory
+cwd = Pathname.new(Dir.pwd)
 
-# Exclude the start file from referenced_files and additional_files
-referenced_files.delete(start_file)
-additional_files.delete(start_file)
+# Process all input files and their references
+referenced_files = Set.new
+file_depths = {}
 
-# Combine additional files and referenced files
-other_files = additional_files.to_a + referenced_files.to_a
+# First, find all markdown files from the arguments
+initial_files = find_markdown_files(ARGV)
 
-# Remove duplicates and sort
-other_files = other_files.uniq.sort
-
-# Prepare the list of files to include
-if other_files.any?
-  # Multiple files, bookend with start_file
-  files_to_include = [start_file] + other_files + [start_file]
-else
-  # Only the start_file
-  files_to_include = [start_file]
+# Then process each file's references
+initial_files.each do |file|
+  process_file_references(file, options[:depth], referenced_files, file_depths)
 end
 
-# Function to convert full paths to relative paths
-def relative_path(path, cwd)
-  Pathname.new(path).relative_path_from(cwd).to_s
-end
+# Sort files by their minimum depth and then alphabetically
+files_to_include = referenced_files.to_a.sort_by { |f| [file_depths[f], f] }
 
 # Print list of files to stderr with paths relative to cwd
 warn "Files to include:"
 files_to_include.each do |file|
-  warn relative_path(file, cwd)
+  depth_marker = "↴" * file_depths[file]
+  file_relative_path = relative_path(file, cwd)
+
+  warn "#{depth_marker} #{file_relative_path}".strip
 end
 
 # Function to print file content with header using relative paths
