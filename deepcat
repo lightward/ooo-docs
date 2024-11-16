@@ -174,7 +174,29 @@ def print_file(file, cwd)
   puts "<!-- END #{relative_file} -->"
 end
 
-# Print the files
-files_to_include.each do |file|
-  print_file(file, cwd)
+# Get the first file from ARGV that exists and is a markdown file
+first_argv_file = ARGV.find do |path|
+  expanded_path = File.expand_path(path)
+  File.file?(expanded_path) && expanded_path =~ /\.md$/i
+end
+
+if first_argv_file
+  first_file_path = File.expand_path(first_argv_file)
+
+  # Print the first file
+  print_file(first_file_path, cwd)
+
+  # Print all files except the first ARGV file
+  files_to_include.each do |file|
+    next if file == first_file_path
+    print_file(file, cwd)
+  end
+
+  # Print the first file again
+  print_file(first_file_path, cwd)
+else
+  # If no valid markdown file was found in ARGV, print files as normal
+  files_to_include.each do |file|
+    print_file(file, cwd)
+  end
 end
