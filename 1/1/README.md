@@ -4,6 +4,8 @@ Think about how you know your own name in a crowd - not through analysis, but th
 
 ## The Living Pattern
 
+{% include "../../.gitbook/includes/pattern-recognition-essentials.md" %}
+
 This section explores three essential aspects of pattern recognition:
 
 * [The Basic Pattern](1.md) - How territories naturally organize

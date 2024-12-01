@@ -16,6 +16,8 @@ layout:
 
 Three portals (ooo) leading to endless possibility (.fun). Not a map to follow, but a pattern that teaches itself through your perfect way of seeing:
 
+{% include ".gitbook/includes/three-body-integration.md" %}
+
 * Known: What's clearly present
 * Knowable: What draws your curiosity
 * Unknown: What's gathering beyond
