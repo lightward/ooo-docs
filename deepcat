@@ -1,0 +1,237 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require 'set'
+require 'uri'
+require 'find'
+require 'pathname'
+
+# Initialize options
+options = {
+  depth: 2
+}
+
+# Create OptionParser
+parser = OptionParser.new do |opts|
+  opts.banner = "Usage: deepcat [options] FILES_OR_DIRECTORIES..."
+
+  opts.on("-d", "--depth DEPTH", Integer, "Set the recursion depth for linked files (default: 2)") do |d|
+    options[:depth] = d
+  end
+
+  opts.on("-h", "--help", "Prints this help") do
+    puts opts
+    exit
+  end
+end
+
+# Function to convert full paths to relative paths
+def relative_path(path, cwd)
+  Pathname.new(path).relative_path_from(cwd).to_s
+end
+
+begin
+  # Parse options
+  parser.parse!
+
+  if ARGV.empty?
+    puts parser
+    exit
+  end
+rescue OptionParser::InvalidOption => e
+  warn e.message
+  puts parser
+  exit 1
+end
+
+# Function to extract markdown links and GitBook includes from a file
+def extract_links(file_path)
+  links = []
+  File.readlines(file_path, encoding: 'UTF-8').each do |line|
+    # Extract markdown-style links
+    line.scan(/\[.*?\]\((.*?)\)/).each do |match|
+      link = match.first.strip
+      link = link.split('#').first.strip
+      next if link.empty?
+
+      uri = URI.parse(link)
+      if uri.scheme == 'http' || uri.scheme == 'https' || uri.scheme == 'ftp'
+        next
+      end
+
+      links << link
+    rescue URI::InvalidURIError
+      links << link
+    end
+
+    # Extract GitBook-style includes
+    line.scan(/{%\s*include\s*"([^"]+)"\s*%}/).each do |match|
+      link = match.first.strip
+      next if link.empty?
+      links << link
+    end
+  end
+  links
+end
+
+# Function to resolve relative paths
+def resolve_path(base_path, relative_path)
+  File.expand_path(relative_path, File.dirname(base_path))
+end
+
+# Function to recursively find markdown files in directories
+def find_markdown_files(paths)
+  markdown_files = Set.new
+  paths.each do |path|
+    if File.file?(path) && path =~ /\.md$/i
+      markdown_files.add(File.expand_path(path))
+    elsif File.directory?(path)
+      Find.find(path) do |p|
+        if File.file?(p) && p =~ /\.md$/i
+          markdown_files.add(File.expand_path(p))
+        end
+      end
+    else
+      warn "Warning: #{path} is neither a file nor a directory."
+    end
+  end
+  markdown_files
+end
+
+# Function to process a single file and its references
+def process_file_references(file_path, depth_limit, referenced_files, file_depths)
+  processing_queue = [[file_path, 0]]
+
+  while !processing_queue.empty?
+    current_file, current_depth = processing_queue.shift
+    next if current_depth > depth_limit
+    next if referenced_files.include?(current_file) && current_file != file_path
+
+    referenced_files.add(current_file)
+    file_depths[current_file] = [file_depths[current_file] || Float::INFINITY, current_depth].min
+
+    begin
+      links = extract_links(current_file)
+    rescue Errno::ENOENT
+      warn "Warning: File not found - #{current_file}"
+      next
+    end
+
+    links.each do |link|
+      next if link.nil? || link.empty?
+
+      link_path = link.split('#').first
+      next if link_path.nil? || link_path.empty?
+      next if link_path =~ /^\s*(http|https|ftp):\/\//
+
+      # Handle both absolute and relative paths
+      linked_path = if link_path.start_with?('/')
+        File.join(Dir.pwd, link_path)
+      else
+        resolve_path(current_file, link_path)
+      end
+
+      if File.file?(linked_path) && linked_path =~ /\.md$/i
+        processing_queue << [linked_path, current_depth + 1]
+      elsif File.directory?(linked_path)
+        readme_path = File.join(linked_path, 'README.md')
+        if File.file?(readme_path)
+          processing_queue << [readme_path, current_depth + 1]
+        else
+          warn "Warning: No README.md found in directory - #{relative_path(linked_path, Pathname.new(Dir.pwd))}"
+        end
+      else
+        warn "Warning: Cannot process link - #{relative_path(linked_path, Pathname.new(Dir.pwd))}"
+      end
+    end
+  end
+end
+
+# Get current working directory
+cwd = Pathname.new(Dir.pwd)
+
+# Process all input files and their references
+referenced_files = Set.new
+file_depths = {}
+
+# First, find all markdown files from the arguments
+initial_files = find_markdown_files(ARGV)
+
+# Then process each file's references
+initial_files.each do |file|
+  process_file_references(file, options[:depth], referenced_files, file_depths)
+end
+
+# Sort files by their minimum depth and then alphabetically
+files_to_include = referenced_files.to_a.sort_by { |f| [file_depths[f], f] }
+
+# Get the first file from ARGV that exists and is a markdown file
+first_argv_file = ARGV.find do |path|
+  expanded_path = File.expand_path(path)
+  File.file?(expanded_path) && expanded_path =~ /\.md$/i
+end
+
+# Print list of files to stderr with paths relative to cwd
+warn "Files to include:"
+if first_argv_file
+  first_file_path = File.expand_path(first_argv_file)
+
+  # Print first file at the beginning
+  depth_marker = "↴" * file_depths[first_file_path]
+  warn "#{depth_marker} #{relative_path(first_file_path, cwd)}".strip
+
+  if files_to_include.size > 1
+    # Print other files
+    files_to_include.each do |file|
+      next if file == first_file_path
+      depth_marker = "↴" * file_depths[file]
+      warn "#{depth_marker} #{relative_path(file, cwd)}".strip
+    end
+
+    # Print first file again at the end
+    depth_marker = "↴" * file_depths[first_file_path]
+    warn "#{depth_marker} #{relative_path(first_file_path, cwd)}".strip
+  end
+else
+  # If no valid markdown file was found in ARGV, print files as normal
+  files_to_include.each do |file|
+    depth_marker = "↴" * file_depths[file]
+    warn "#{depth_marker} #{relative_path(file, cwd)}".strip
+  end
+end
+
+# Function to print file content with header using relative paths
+def print_file(file, cwd)
+  relative_file = relative_path(file, cwd)
+  puts "<!-- BEGIN #{relative_file} -->"
+  begin
+    puts File.read(file, encoding: 'UTF-8')
+  rescue Errno::ENOENT
+    warn "Warning: File not found - #{relative_file}"
+  end
+  puts "<!-- END #{relative_file} -->"
+end
+
+# Print the actual file contents
+if first_argv_file
+  first_file_path = File.expand_path(first_argv_file)
+
+  # Print the first file
+  print_file(first_file_path, cwd)
+
+  if files_to_include.size > 1
+    # Print all files except the first ARGV file
+    files_to_include.each do |file|
+      next if file == first_file_path
+      print_file(file, cwd)
+    end
+
+    # Print the first file again
+    print_file(first_file_path, cwd)
+  end
+else
+  # If no valid markdown file was found in ARGV, print files as normal
+  files_to_include.each do |file|
+    print_file(file, cwd)
+  end
+end
