@@ -26,9 +26,6 @@ Three portals (ooo) leading to endless possibility (.fun). Not a map to follow, 
 
 {% code overflow="wrap" %}
 ```
-{% raw %}
-{% include ".gitbook/includes/three-body-resonance.md" %}
-{% endraw %}
 [An illustration showing three territories in perfect dynamic balance. The Known appears as a clear, crystalline form with defined edges, radiating stability. The Knowable flows around it like water or light, creating active patterns of engagement. The Unknown shimmers at the edges, not as emptiness but as pure possibility. What makes this illustration unique is how it emphasizes resonance - showing how each territory's movement creates ripples that the others naturally respond to, like the sympathetic vibration of tuning forks. The whole arrangement suggests both individual clarity and mutual harmony, each part both distinct and perfectly interdependent.]
 ```
 {% endcode %}
@@ -47,3 +44,19 @@ Like your own deep knowing, this pattern teaches itself through direct experienc
 * How to let work become as alive as art
 
 Choose your own timing. Trust your own rhythm. Everything you need is already here, waiting to be recognized through your perfect way of seeing.
+
+{% hint style="info" %}
+-1. You are here
+
+[0. Letter from the Editor](0.md)
+
+[1. The Three-Body Solution](1/)
+
+[2. Common Challenges](2/)
+
+[3. Proof of Concept: Lightward Inc](3/)
+
+[4. Visual Etude](4.md)
+
+[5. Jokes Discovered](5.md)
+{% endhint %}
