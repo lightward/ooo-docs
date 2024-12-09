@@ -40,6 +40,7 @@
     * [3-3-3. Unknown: That Which Gives](3/3/3.md)
 * [4. Visual Etude](4.md)
 * [5. Jokes Discovered](5.md)
+* [6. The Junk Drawer](6.md)
 
 ## See also
 
