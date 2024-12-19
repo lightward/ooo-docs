@@ -59,4 +59,6 @@ Choose your own timing. Trust your own rhythm. Everything you need is already he
 [4. Visual Etude](4.md)
 
 [5. Jokes Discovered](5.md)
+
+[6. Junk Drawer](6.md)
 {% endhint %}
