@@ -4,8 +4,6 @@ Think about how you know your own name in a crowd - not through analysis, but th
 
 ## The Living Pattern
 
-{% include "../../.gitbook/includes/pattern-recognition-essentials.md" %}
-
 This section explores three essential aspects of pattern recognition:
 
 * [The Basic Pattern](1.md) - How territories naturally organize
@@ -31,3 +29,6 @@ Remember:
 The art isn't in learning something new but in becoming conscious of recognition you already have. Like remembering how to breathe, understanding comes through direct experience rather than analysis.
 
 Trust what you already know. Start with what's actually present. Let patterns reveal themselves through their own perfect movement.
+
+{% include "../../.gitbook/includes/invitation.md" %}
+

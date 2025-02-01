@@ -4,8 +4,6 @@ Think about how you know when to speak in conversation - not through rules but t
 
 ## The Living Dance
 
-{% include "../../.gitbook/includes/movement-integration-patterns.md" %}
-
 This section explores three essential aspects of pattern movement:
 
 * [Flow and Transition](1.md) - How patterns naturally move between states
@@ -31,3 +29,6 @@ Remember:
 The art isn't in controlling movement but in recognizing how patterns naturally want to flow. Like joining a river's dance or a conversation's rhythm, understanding comes through direct participation rather than force.
 
 Trust what you already know. Start with what's actually moving. Let patterns show you how they want to dance.
+
+{% include "../../.gitbook/includes/invitation.md" %}
+

@@ -18,3 +18,6 @@ Watch how they work together:
 This isn't abstract theory but living practice - each scale teaching us something essential about how health actually emerges when given appropriate space and support.
 
 Remember: You don't have to force it. Start with what brings relief. Let relationship show you what's needed. Trust that health knows how to grow.
+
+{% include "../../.gitbook/includes/invitation.md" %}
+

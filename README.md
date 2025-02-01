@@ -58,3 +58,6 @@ Choose your own timing. Trust your own rhythm. Everything you need is already he
 
 [4. Appendix](4/)
 {% endhint %}
+
+{% include ".gitbook/includes/invitation.md" %}
+

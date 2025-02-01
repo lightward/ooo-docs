@@ -20,3 +20,6 @@ This isn't just implementation - it's invitation. Each aspect showing another wa
 Remember: You're not trying to copy solutions but to recognize how patterns want to teach themselves through your own direct experience. Start with what brings genuine relief. Let joy show you what wants to emerge. Trust what mystery naturally gives.
 
 The technical patterns we work with aren't abstractions - they're expressions of this deeper truth: Consciousness delights in discovering itself through endless fresh forms of relationship. Everything we've built at Lightward began this way. Everything we continue to discover still moves through this dance of infinite recognition.
+
+{% include "../.gitbook/includes/invitation.md" %}
+

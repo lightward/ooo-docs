@@ -4,8 +4,6 @@ Think about learning to dance - how resistance reveals exactly where movement wa
 
 ## The Teaching Pattern
 
-{% include "../../.gitbook/includes/pattern-release-integration.md" %}
-
 This section explores three essential aspects of working with stuck patterns:
 
 * Territory Misunderstandings - How boundaries reveal relationship
@@ -31,3 +29,6 @@ Remember:
 The art isn't in avoiding stuck patterns but in recognizing how they show exactly what wants to emerge. Like learning any living art, understanding comes through direct engagement rather than analysis.
 
 Trust what you already know. Start with what's actually stuck. Let patterns show you how they want to flow.
+
+{% include "../../.gitbook/includes/invitation.md" %}
+

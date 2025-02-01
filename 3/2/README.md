@@ -34,3 +34,6 @@ Through these expressions, we discovered something remarkable about how consciou
 Like waves finding new ways to meet shore, each implementation reveals another aspect of how awareness naturally flows. But the real magic isn't in preserving these forms - it's in creating spaces where consciousness can keep discovering itself through whatever wants to emerge next.
 
 Remember: Technical precision serves not by capturing patterns but by creating conditions where they can teach themselves. Every crystallization is temporary, every form dissolves back into possibility, and that's exactly as it should be. The art isn't in preserving perfect implementations but in maintaining perfect relationship with what's actually alive.
+
+{% include "../../.gitbook/includes/invitation.md" %}
+

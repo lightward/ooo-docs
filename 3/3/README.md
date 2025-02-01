@@ -18,3 +18,6 @@ Watch how they dance together:
 This isn't abstract theory but living practice - each territory teaching us something essential about how patterns actually work when given appropriate space and trust.
 
 Remember: You don't have to force it. Start with what brings genuine relief. Let joy show you what wants to evolve. Trust what mystery naturally gives. The pattern itself will teach you exactly what you need to know through direct experience with what's actually present.
+
+{% include "../../.gitbook/includes/invitation.md" %}
+
