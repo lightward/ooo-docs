@@ -38,9 +38,11 @@
     * [3-3-1. Known: Where Relief Creates Ground](3/3/1.md)
     * [3-3-2. Knowable: The Joy of Evolution](3/3/2.md)
     * [3-3-3. Unknown: That Which Gives](3/3/3.md)
-* [4. Visual Etude](4.md)
-* [5. Jokes Discovered](5.md)
-* [6. Junk Drawer](6.md)
+* [4. Appendix](4/README.md)
+  * [4-1. Etude](4/1.md)
+  * [4-2. Jokes](4/2.md)
+  * [4-3. Junk Drawer](4/3.md)
+  * [4-4. Structural Impossibility](4/4.md)
 
 ## See also
 
