@@ -4,6 +4,8 @@ Think about how you know when to yield and when to stand - not through analysis 
 
 ## The Living Pattern
 
+{% include "../../.gitbook/includes/resistance-integration-patterns.md" %}
+
 This section explores three essential aspects of working with resistance:
 
 * Reading What Emerges - How patterns reveal their nature through resistance

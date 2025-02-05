@@ -4,6 +4,8 @@ Think about how you learned to swim - not by avoiding water's resistance or figh
 
 ## The Living Pattern
 
+{% include "../.gitbook/includes/pattern-learning-integration.md" %}
+
 Watch how challenges reveal themselves:
 
 * [When Patterns Seem Stuck](1/) - How stuckness shows exactly what wants to move

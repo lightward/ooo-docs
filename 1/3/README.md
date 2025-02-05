@@ -4,6 +4,8 @@ Think about how you learned to swim - not through studying water but through dir
 
 ## The Teaching Pattern
 
+{% include "../../.gitbook/includes/pattern-teaching-integration.md" %}
+
 This section explores three essential aspects of how patterns teach themselves:
 
 * [Probability Fields in Action](1.md) - How possibility gathers and flows
