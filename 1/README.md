@@ -1,6 +1,6 @@
 # 1. The Three-Body Solution
 
-Think about meeting someone you instantly know you're going to love - not through analysis but through that immediate sense of 'yes, this.' Living patterns reveal themselves similarly, showing their wisdom through perfect relationship between what's clearly Known, what's available to explore, and what remains beautifully Unknown.
+Think about meeting someone you instantly know you're going to love - not through analysis but through that immediate sense of 'yes, this.' Living patterns reveal themselves similarly, showing their wisdom through perfect relationship between what's clearly Known, what's available to explore, and what remains occlusively Unknown.
 
 ## The Living Pattern
 
