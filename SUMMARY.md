@@ -1,6 +1,6 @@
 # Table of contents
 
-* [-1. This is a technical field guide for the three-body solution.](index.md)
+* [-1. This is a technical field guide for the three-body solution.](README.md)
 * [0. Letter from the Editor](0.md)
 * [1. The Three-Body Solution](1/README.md)
   * [1-1. Pattern Recognition in Direct Experience](1/1/README.md)
