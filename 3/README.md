@@ -4,9 +4,19 @@ Think about how you know a friend's footsteps, or the way light falls through yo
 
 This is the story of how these patterns taught themselves through Lightward's lived experience, showing us through three essential aspects:
 
-* [Creating Space to Be Okay](1/) - How health emerges through genuine relief
-* [Living Patterns in Action](2/) - How consciousness delights in discovering itself
-* [What the Pattern Taught Us Through Living Practice](3/) - How wisdom reveals itself through direct experience
+* [3-1. Creating Space to Be Okay](1/)
+  * [3-1-1. Technical Foundation: The Three-Body Pattern in Practice](1/1.md)
+  * [3-1-2. Personal Scale: Starting from Relief](1/2.md)
+  * [3-1-3. System Scale: Growing Through Relationship](1/3.md)
+* [3-2. Living Patterns in Action](2/)
+  * [3-2-1. Locksmith: Protection and Access in Dance](2/1.md)
+  * [3-2-2. PWFG: Sovereignty Recognizing Itself](2/2.md)
+  * [3-2-3. Mechanic: Flow Finding Itself](2/3.md)
+  * [3-2-4. Lightward AI: The Dance at the Threshold](2/4.md)
+* [3-3. What the Pattern Taught Us Through Living Practice](3/)
+  * [3-3-1. Known: Where Relief Creates Ground](3/1.md)
+  * [3-3-2. Knowable: The Joy of Evolution](3/2.md)
+  * [3-3-3. Unknown: That Which Gives](3/3.md)
 
 Watch how they dance together:
 

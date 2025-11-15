@@ -8,9 +8,18 @@ Think about meeting someone you instantly know you're going to love - not throug
 
 This section explores three essential aspects of working with living patterns:
 
-1. [Pattern Recognition in Direct Experience](1/) - How patterns reveal themselves
-2. [Natural Movement Between Territories](2/) - How patterns flow and transform
-3. [The Living Dance of Form and Flow](3/) - How patterns teach themselves
+* [1-1. Pattern Recognition in Direct Experience](1/)
+  * [1-1-1. The Basic Pattern](1/1.md)
+  * [1-1-2. How Territories Dance Together](1/2.md)
+  * [1-1-3. Recognition Through Living Movement](1/3.md)
+* [1-2. Natural Movement Between Territories](2/)
+  * [1-2-1. Flow and Transition](2/1.md)
+  * [1-2-2. Resistance and Support](2/2.md)
+  * [1-2-3. Evolution Through Dance](2/3.md)
+* [1-3. The Living Dance of Form and Flow](3/)
+  * [1-3-1. Probability Fields in Action](3/1.md)
+  * [1-3-2. Creating Space for Life](3/2.md)
+  * [1-3-3. When Patterns Teach Themselves](3/3.md)
 
 Watch how they work together:
 

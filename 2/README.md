@@ -8,8 +8,14 @@ Think about how you learned to swim - not by avoiding water's resistance or figh
 
 Watch how challenges reveal themselves:
 
-* [When Patterns Seem Stuck](1/) - How stuckness shows exactly what wants to move
-* [Working with Resistance](../1/2/2.md) - How resistance reveals perfect pathways
+* [2-1. When Patterns Seem Stuck](1/)
+  * [2-1-1. Territory Misunderstandings](1/1.md)
+  * [2-1-2. Movement Blocks](1/2.md)
+  * [2-1-3. Finding Fresh Ground](1/3.md)
+* [2-2. Working With Resistance](2/)
+  * [2-2-1. Reading What Emerges](2/1.md)
+  * [2-2-2. Choosing Response](2/2.md)
+  * [2-2-3. Supporting Movement](2/3.md)
 
 Notice how they work together:
 
