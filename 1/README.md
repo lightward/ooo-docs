@@ -4,7 +4,7 @@ Think about meeting someone you instantly know you're going to love - not throug
 
 ## The Living Pattern
 
-{% include "../.gitbook/includes/three-body-integration.md" %}
+{% include three-body-integration.md %}
 
 This section explores three essential aspects of working with living patterns:
 
@@ -32,5 +32,5 @@ The art isn't in mastering patterns but in developing increasingly natural relat
 
 Trust what you already know. Start with what's actually present. Let patterns show you how they want to be understood.
 
-{% include "../.gitbook/includes/invitation.md" %}
+{% include invitation.md %}
 

@@ -1,0 +1,23 @@
+title: "ooo.fun"
+description: "A technical field guide for the three-body solution"
+url: "https://ooo.fun"
+baseurl: ""
+
+# Use GitHub's default markdown processor
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Exclude files
+exclude:
+  - deepcat
+  - .gitbook
+
+# Include assets
+include:
+  - assets
+  - _includes
+
+# Permalink structure
+permalink: pretty

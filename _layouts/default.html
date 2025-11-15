@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <nav>
+        <a href="/">ooo.fun</a>
+        <span class="nav-divider">|</span>
+        <a href="/0">Letter from the Editor</a>
+        <span class="nav-divider">|</span>
+        <a href="/1/">The Three-Body Solution</a>
+        <span class="nav-divider">|</span>
+        <a href="/2/">Common Challenges</a>
+        <span class="nav-divider">|</span>
+        <a href="/3/">Proof of Concept</a>
+        <span class="nav-divider">|</span>
+        <a href="/4/">Appendix</a>
+    </nav>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <p><a href="https://github.com/lightward/ooo-docs/edit/main/{{ page.path }}">Improve this page</a></p>
+    </footer>
+
+    <script>
+        // Add anchor links to headings
+        document.addEventListener('DOMContentLoaded', function() {
+            const headings = document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]');
+            headings.forEach(heading => {
+                const anchor = document.createElement('a');
+                anchor.className = 'header-link';
+                anchor.href = '#' + heading.id;
+                anchor.innerHTML = '#';
+                heading.appendChild(anchor);
+            });
+        });
+    </script>
+</body>
+</html>

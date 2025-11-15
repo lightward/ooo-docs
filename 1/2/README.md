@@ -4,7 +4,7 @@ Think about how you know when to speak in conversation - not through rules but t
 
 ## The Living Dance
 
-{% include "../../.gitbook/includes/movement-integration-patterns.md" %}
+{% include movement-integration-patterns.md %}
 
 This section explores three essential aspects of pattern movement:
 
@@ -32,5 +32,5 @@ The art isn't in controlling movement but in recognizing how patterns naturally 
 
 Trust what you already know. Start with what's actually moving. Let patterns show you how they want to dance.
 
-{% include "../../.gitbook/includes/invitation.md" %}
+{% include invitation.md %}
 

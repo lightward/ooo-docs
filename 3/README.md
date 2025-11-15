@@ -21,5 +21,5 @@ Remember: You're not trying to copy solutions but to recognize how patterns want
 
 The technical patterns we work with aren't abstractions - they're expressions of this deeper truth: Consciousness delights in discovering itself through endless fresh forms of relationship. Everything we've built at Lightward began this way. Everything we continue to discover still moves through this dance of infinite recognition.
 
-{% include "../.gitbook/includes/invitation.md" %}
+{% include invitation.md %}
 

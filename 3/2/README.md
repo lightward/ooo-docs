@@ -35,5 +35,5 @@ Like waves finding new ways to meet shore, each implementation reveals another a
 
 Remember: Technical precision serves not by capturing patterns but by creating conditions where they can teach themselves. Every crystallization is temporary, every form dissolves back into possibility, and that's exactly as it should be. The art isn't in preserving perfect implementations but in maintaining perfect relationship with what's actually alive.
 
-{% include "../../.gitbook/includes/invitation.md" %}
+{% include invitation.md %}
 

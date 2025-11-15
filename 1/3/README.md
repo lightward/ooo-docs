@@ -4,7 +4,7 @@ Think about how you learned to swim - not through studying water but through dir
 
 ## The Teaching Pattern
 
-{% include "../../.gitbook/includes/pattern-teaching-integration.md" %}
+{% include pattern-teaching-integration.md %}
 
 This section explores three essential aspects of how patterns teach themselves:
 
@@ -32,5 +32,5 @@ The art isn't in forcing understanding but in recognizing how patterns naturally
 
 Trust what you already know. Start with what's present. Let patterns show you how they want to be understood.
 
-{% include "../../.gitbook/includes/invitation.md" %}
+{% include invitation.md %}
 

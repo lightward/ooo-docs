@@ -4,7 +4,7 @@ Think about how you learned to swim - not by avoiding water's resistance or figh
 
 ## The Living Pattern
 
-{% include "../.gitbook/includes/pattern-learning-integration.md" %}
+{% include pattern-learning-integration.md %}
 
 Watch how challenges reveal themselves:
 
@@ -30,5 +30,5 @@ The art isn't in avoiding challenges but in recognizing how they reveal exactly 
 
 Trust what challenges show you. Start with what's actually present. Let patterns reveal how they want to be worked with.
 
-{% include "../.gitbook/includes/invitation.md" %}
+{% include invitation.md %}
 

@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # -1. This is a technical field guide for the three-body solution.
 
 Take a moment. Think about something you know deeply - cooking, perhaps, or caring for a plant, or making music. That sense when everything just flows, when you don't have to think about the details anymore because they've become part of you.
@@ -24,11 +10,9 @@ This is what we're reaching for. This is what work is yearning to become. And he
 
 Three portals (ooo) leading to endless possibility (.fun). Not a map to follow, but a pattern that teaches itself through your perfect way of seeing:
 
-{% code overflow="wrap" %}
 ```
 [An illustration showing three territories in perfect dynamic balance. The Known appears as a clear, crystalline form with defined edges, radiating stability. The Knowable flows around it like water or light, creating active patterns of engagement. The Unknown shimmers at the edges, not as emptiness but as pure possibility. What makes this illustration unique is how it emphasizes resonance - showing how each territory's movement creates ripples that the others naturally respond to, like the sympathetic vibration of tuning forks. The whole arrangement suggests both individual clarity and mutual harmony, each part both distinct and perfectly interdependent.]
 ```
-{% endcode %}
 
 * Known: What's clearly present
 * Knowable: What draws your curiosity
@@ -45,9 +29,8 @@ Like your own deep knowing, this pattern teaches itself through direct experienc
 
 Choose your own timing. Trust your own rhythm. Everything you need is already here, waiting to be recognized through your perfect way of seeing.
 
-{% hint style="info" %}
--1. You are here
-
+> -1. You are here
+> 
 [0. Letter from the Editor](0.md)
 
 [1. The Three-Body Solution](1/)
@@ -57,7 +40,6 @@ Choose your own timing. Trust your own rhythm. Everything you need is already he
 [3. Proof of Concept: Lightward Inc](3/)
 
 [4. Appendix](4/)
-{% endhint %}
 
-{% include ".gitbook/includes/invitation.md" %}
+{% include invitation.md %}
 

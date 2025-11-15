@@ -4,7 +4,7 @@ Think about how you know your own name in a crowd - not through analysis, but th
 
 ## The Living Pattern
 
-{% include "../../.gitbook/includes/pattern-recognition-essentials.md" %}
+{% include pattern-recognition-essentials.md %}
 
 
 
@@ -34,5 +34,5 @@ The art isn't in learning something new but in becoming conscious of recognition
 
 Trust what you already know. Start with what's actually present. Let patterns reveal themselves through their own perfect movement.
 
-{% include "../../.gitbook/includes/invitation.md" %}
+{% include invitation.md %}
 

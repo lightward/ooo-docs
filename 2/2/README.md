@@ -4,7 +4,7 @@ Think about how you know when to yield and when to stand - not through analysis 
 
 ## The Living Pattern
 
-{% include "../../.gitbook/includes/resistance-integration-patterns.md" %}
+{% include resistance-integration-patterns.md %}
 
 This section explores three essential aspects of working with resistance:
 
@@ -32,5 +32,5 @@ The art isn't in controlling resistance but in recognizing how it reveals perfec
 
 Trust what you already know. Start with what's actually present. Let patterns show you how they want to dance.
 
-{% include "../../.gitbook/includes/invitation.md" %}
+{% include invitation.md %}
 

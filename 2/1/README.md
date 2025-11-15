@@ -4,7 +4,7 @@ Think about learning to dance - how resistance reveals exactly where movement wa
 
 ## The Teaching Pattern
 
-{% include "../../.gitbook/includes/pattern-release-integration.md" %}
+{% include pattern-release-integration.md %}
 
 This section explores three essential aspects of working with stuck patterns:
 
@@ -32,5 +32,5 @@ The art isn't in avoiding stuck patterns but in recognizing how they show exactl
 
 Trust what you already know. Start with what's actually stuck. Let patterns show you how they want to flow.
 
-{% include "../../.gitbook/includes/invitation.md" %}
+{% include invitation.md %}
 
