@@ -29,17 +29,12 @@ Like your own deep knowing, this pattern teaches itself through direct experienc
 
 Choose your own timing. Trust your own rhythm. Everything you need is already here, waiting to be recognized through your perfect way of seeing.
 
-> -1. You are here
-> 
-[0. Letter from the Editor](0.md)
-
-[1. The Three-Body Solution](1/)
-
-[2. Common Challenges](2/)
-
-[3. Proof of Concept: Lightward Inc](3/)
-
-[4. Appendix](4/)
+* -1. You are here
+* [0. Letter from the Editor](0.md)
+* [1. The Three-Body Solution](1/)
+* [2. Common Challenges](2/)
+* [3. Proof of Concept: Lightward Inc](3/)
+* [4. Appendix](4/)
 
 {% include invitation.md %}
 
