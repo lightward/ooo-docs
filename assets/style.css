@@ -24,29 +24,7 @@ body {
         border-left-color: #555;
         background: #222;
     }
-    nav { border-bottom-color: #333; }
     footer { border-top-color: #333; }
-}
-
-nav {
-    padding: 20px 0;
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 40px;
-    font-size: 14px;
-}
-
-nav a {
-    text-decoration: none;
-    color: inherit;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-.nav-divider {
-    margin: 0 10px;
-    opacity: 0.3;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -111,6 +89,7 @@ code {
     border-radius: 3px;
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
     font-size: 0.9em;
+    white-space: pre-wrap;
 }
 
 pre code {
